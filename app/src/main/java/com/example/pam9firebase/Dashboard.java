@@ -66,8 +66,6 @@ public class Dashboard extends AppCompatActivity {
         recyclerView.setAdapter(noteAdapter);
 
         loadNotes();
-//        firebaseDatabase = FirebaseDatabase.getInstance("https://pam9firebase-3f452-default-rtdb.asia-southeast1.firebasedatabase.app/");
-//        databaseReference = firebaseDatabase.getReference();
 
     }
 
